@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "scripts": {
+    "start-app": "yarn workspace mobile start",
+    "watch-packages": "yarn workspaces run build"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "resolutions": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}
